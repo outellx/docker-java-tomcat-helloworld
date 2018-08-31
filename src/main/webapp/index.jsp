@@ -1,5 +1,11 @@
 <html>
 <body>
-<h2>Hello World Test <%System.getenv("MY_POD_NAME")%>!</h2>
+<%
+String podName = System.getenv("MY_POD_NAME");
+if (podName == null) {
+  podName = "Test";
+}
+%>
+<h2>Hello <%=podName %> !</h2>
 </body>
 </html>
