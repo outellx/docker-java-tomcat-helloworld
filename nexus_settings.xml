@@ -4,7 +4,7 @@
     <mirror>
       <id>Nexus</id>
       <name>Nexus Private Mirror</name>
-      <url>http://nexus/nexus/repository/maven-all-public/</url>
+      <url>http://10.0.160.12:18081/nexus/repository/maven-all-public/</url>
       <mirrorOf>*</mirrorOf>
     </mirror>
   </mirrors>
