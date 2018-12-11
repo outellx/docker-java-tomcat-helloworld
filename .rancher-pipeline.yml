@@ -1,0 +1,6 @@
+stages:
+- name: newstage
+  steps:
+  - applyYamlConfig:
+      path: ./alaudaci.yaml
+timeout: 60
